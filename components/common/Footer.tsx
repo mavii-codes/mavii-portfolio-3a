@@ -8,7 +8,7 @@ export function Footer() {
           {/* About your site */}
           <div>
             <h2>Portfolio</h2>
-            <p>Cebu, City</p>
+            <p>Ibabao, Cordova, Cebu</p>
           </div>
           {/* Quick Links */}
           <div>
@@ -29,9 +29,17 @@ export function Footer() {
           {/* Contacts */}
           <div>
             <ul>
-              <li><Link href="/">Phone: 123123</Link></li>
-              <li><Link href="/about">Email: test@gmail.com</Link></li>
-              <li><Link href="/projects">Github</Link></li>
+              <li><Link href="/">Phone: 09150388050</Link></li>
+              <li>
+                <a href="mailto:barromrvn@gmail.com">
+                  Email: barromrvn@gmail.com
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/mavii-codes" target="_blank" rel="noopener noreferrer">
+                  GitHub
+                </a>
+              </li>
             </ul>
           </div>
         </div>
