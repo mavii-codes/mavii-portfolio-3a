@@ -5,7 +5,7 @@ export default function GuestLayout({ children }: Readonly<{ children: React.Rea
   return (
     <main className="flex flex-col h-screen">
       <Header />
-      <div className="flex-1 container mx-auto px-6">
+      <div className="flex-1 w-full">
         {children}
       </div>
       <Footer />
